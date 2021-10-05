@@ -1,0 +1,32 @@
+{
+  "name": "sokoley/module-breadcrumbs-schema",
+  "type": "magento2-module",
+  "version": "2.3.0",
+  "description": "Allows to add schema.org script for breadcrumbs at product page",
+  "authors": [
+    {
+      "name": "Sokoley",
+      "email": "sokoley@yandex.ru",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [
+    "magento",
+    "graphql",
+    "logger"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Sokoley\\BreadcrumbsSchema\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com"
+    }
+  ]
+}
