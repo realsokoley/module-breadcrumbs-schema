@@ -12,7 +12,7 @@ For this purpucies was realized method `getCrumbs` in `ViewModel\Breadcrumbs` cl
 `<?php
 /** @var \Magento\Theme\Block\Html\Breadcrumbs $block */
 /** @var \Magento\Catalog\ViewModel\Product\Breadcrumbs $viewModel */
-/** @var \Mygento\BreadcrumbsSchema\ViewModel\Breadcrumbs $viewModelSchema */
+/** @var \Sokoley\BreadcrumbsSchema\ViewModel\Breadcrumbs $viewModelSchema */
 /** @var array $crumbs */
 $viewModel = $block->getData('viewModel');
 $viewModelSchema = $block->getData('viewModelSchema');
