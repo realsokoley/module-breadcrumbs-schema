@@ -9,7 +9,8 @@ For this purpucies was realized method `getCrumbs` in `ViewModel\Breadcrumbs` cl
 
 `app/design/frontend/VENDOR/THEME/Magento_Catalog/templates/product/breadcrumbs.phtml`
 
-`<?php
+```
+<?php
 /** @var \Magento\Theme\Block\Html\Breadcrumbs $block */
 /** @var \Magento\Catalog\ViewModel\Product\Breadcrumbs $viewModel */
 /** @var \Sokoley\BreadcrumbsSchema\ViewModel\Breadcrumbs $viewModelSchema */
@@ -41,4 +42,5 @@ $crumbs = $viewModelSchema->getCrumbs();
         ]
     }
 </script>
-<?php endif; ?>`
+<?php endif; ?>
+```
